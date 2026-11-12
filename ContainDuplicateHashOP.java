@@ -24,6 +24,7 @@ public class ContainDuplicateHashOP {
         ContainDuplicateHashOP obj = new ContainDuplicateHashOP();
         boolean result = obj.containsDuplicate(nums);
         System.out.println(result);
+        in.close();
 
     }
 }
